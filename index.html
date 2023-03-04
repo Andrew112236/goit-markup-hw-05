@@ -17,6 +17,12 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <div class="modal is-hidden" data-modal>
+      <div class="inner-div">
+        <button data-modal-close>Close</button>
+        <p>text text</p>
+      </div>
+    </div>
     <!-- Header -->
     <header class="page-header">
       <div class="container">
@@ -64,7 +70,7 @@
               <h1 class="title-page">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
             </li>
             <li>
-              <button class="button-studio" type="button">
+              <button data-modal-open class="button-studio" type="button">
                 Request our service
               </button>
             </li>
@@ -502,5 +508,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
