@@ -168,10 +168,14 @@ body {
 }
 .link:hover {
   color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .link:focus {
   color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .color-logo {
@@ -191,10 +195,14 @@ body {
 
 .contact-footer:hover {
   color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .contact-footer:focus {
   color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .footer .logo-selection {
@@ -210,6 +218,8 @@ body {
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .button-portfolio:focus {
@@ -221,12 +231,16 @@ body {
   border-radius: 4px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .border-cards:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 /* What we do - section */
 
@@ -384,10 +398,14 @@ body {
 
 .icon-list-item:hover {
   background-color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .icon-list-item svg:hover {
   fill: var(--color-section-header);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 /* Regular customers */
@@ -428,11 +446,15 @@ body {
 .icon-logos-list:hover {
   border: 1px solid var(--color-logo-left-path);
   cursor: pointer;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .icon-logos-list svg:hover {
   fill: var(--color-logo-left-path);
   cursor: pointer;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 /* Footer menu */
@@ -521,10 +543,14 @@ footer {
 
 .icon-list-item-footer:hover {
   background-color: var(--color-logo-left-path);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 .icon-list-item-footer svg:hover {
   fill: var(--color-section-header);
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
 }
 
 /* PAGE PORTFOLIO */
