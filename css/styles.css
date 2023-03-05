@@ -89,6 +89,21 @@
   margin-right: 10px;
 }
 
+.navigation-list .active-link {
+  position: relative;
+}
+
+.navigation-list .active-link:after {
+  content: "";
+  border: 2px solid var(--color-logo-left-path);
+  width: 100%;
+  position: absolute;
+  bottom: -39px;
+  border-radius: 4px;
+  visibility: visible;
+  left: 0;
+}
+
 /* Main containers */
 
 .title-page-container {
@@ -154,7 +169,7 @@
 
 .close-button {
   position: relative;
-  left: 4px;
+  left: 3.5px;
 }
 
 .inner-div {
