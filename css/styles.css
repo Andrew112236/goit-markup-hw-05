@@ -145,12 +145,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: scale(1.25);
 }
 
 .is-hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+.close-button {
+  position: relative;
+  left: 4px;
 }
 
 .inner-div {
@@ -160,6 +164,44 @@
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
+  animation: animate75;
+  animation-duration: 3000ms;
+  animation-timing-function: infinite;
+  animation-iteration-count: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.modal-button-function {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-section-header);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  margin: 8px 8px 0px 0px;
+}
+
+@keyframes animate75 {
+  0% {
+    transform: scale(1);
+  }
+
+  35% {
+    transform: scale(0.75);
+  }
+
+  75% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
 }
 
 /* Styling zone - Background, general styles, hover and focus */
